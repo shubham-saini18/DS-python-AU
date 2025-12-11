@@ -79,7 +79,7 @@ git checkout shubham-saini
 4. Commit and push
 ```bash
 git add .
-git commit -m "Assignment submission: task1 - <brief description>"
+git commit -m "task1: - <brief description>"
 git push origin <your-branch>
 ```
 
