@@ -1,18 +1,18 @@
 # Team Python Assignment
 
-This repository holds Python assignment workflow where each team member works independently in their own branch. The `main` branch is protected and managed by the admin.
+This repository holds Python assignment workflow where each team member works independently in their own branch. The `master` branch is protected and managed by the admin.
 
 ---
 
 ## Quick overview
-- The admin publishes one or more tasks (as markdown files) in `main`.
+- The admin publishes one or more tasks (as markdown files) in `master`.
 - Each member implements the task in their personal branch.
-- Do not merge member branches into `main` — `main` is admin-managed.
+- Do not merge member branches into `master` — `master` is admin-managed.
 
 ---
 
 ## Task files (naming convention)
-- Tasks are provided as markdown files in `main` and use a numbered naming convention:
+- Tasks are provided as markdown files in `master` and use a numbered naming convention:
   - `task1.md`, `task2.md`, ...
 - The admin will indicate which task(s) to complete. If multiple task files exist, follow the admin's instruction about which one to work on (for example, "Complete task2.md").
 - Starter code, if any, will be provided alongside the task file or referenced inside the task markdown.
@@ -20,25 +20,25 @@ This repository holds Python assignment workflow where each team member works in
 ---
 
 ## Repository layout (example)
-- main/                → Admin only (README & task files like `task1.md`, `task2.md`)
+- master/                → Admin only (README & task files like `task1.md`, `task2.md`)
 - shubham-saini/             → Member branch
 - prachi-singh/
 - mancie-barla/
 - naresh-rawat/
 - md-alimullah/
 - mohit-cheepa/
-
+- aditya-pareek/
 Each member has one branch. Keep branches separate — no cross-branch edits or merges.
 
 ---
 
 ## Branch rules & permissions
 
-Main branch (`main`)
+Main branch (`master`)
 - Managed only by the admin.
-- Members must not push, edit, or merge into `main`.
+- Members must not push, edit, or merge into `master`.
 
-Member branches (example: `shubham`)
+Member branches (example: `shubham-saini`)
 - Push and work only in your own branch.
 - Do not push to other members’ branches.
 - Do not create merges/PRs between member branches.
@@ -52,8 +52,8 @@ Note: GitHub may not technically enforce all restrictions on free plans. These r
 
 1. Clone the repository
 ```bash
-git clone <repo-url>
-cd <repo-folder>
+git clone https://github.com/shubham-saini18/DS-python-AU.git
+cd DS-python-AU
 ```
 
 2. Get the latest branches and switch to your branch
@@ -67,7 +67,7 @@ git checkout -b <your-branch> origin/<your-branch>
 Example for Shubham:
 ```bash
 git fetch --all
-git checkout shubham
+git checkout shubham-saini
 ```
 
 3. Add your solution
@@ -79,14 +79,14 @@ git checkout shubham
 4. Commit and push
 ```bash
 git add .
-git commit -m "Assignment submission: task1 - <brief description>"
+git commit -m "task1: - <brief description>"
 git push origin <your-branch>
 ```
 
 ---
 
 ## Rules summary (must follow)
-- Do NOT push anything to `main`
+- Do NOT push anything to `master`
 - Do NOT edit another member’s branch
 - Do NOT merge branches or create PRs between member branches
 - Do NOT create new branches without admin approval
@@ -96,7 +96,7 @@ Admin will revert mistakes if rules are broken.
 ---
 
 ## Admin responsibilities
-- Protect and maintain `main`
+- Protect and maintain `master`
 - Publish and update task files (`task1.md`, `task2.md`, ...)
 - Create member branches
 - Review submissions and reset incorrect commits when needed
