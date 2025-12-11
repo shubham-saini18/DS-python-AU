@@ -52,7 +52,7 @@ Note: GitHub may not technically enforce all restrictions on free plans. These r
 
 1. Clone the repository
 ```bash
-git clone <repo-url>
+git clone https://github.com/shubham-saini18/DS-python-AU.git
 cd DS-python-AU
 ```
 
