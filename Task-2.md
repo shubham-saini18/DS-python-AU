@@ -154,10 +154,10 @@ Output:
 ## **Problem 14 – Sum & Average of Digits in a String**
 
 Input: `hel123O4every093`  
-Output:
+    Output:
 
-Sum: 22
-Avg: 2.75
+    Sum: 22
+    Avg: 2.75
 
 
 Ignore all non-digit characters.
@@ -167,10 +167,8 @@ Ignore all non-digit characters.
 
 ## **Problem 15 – Remove All Characters Except Integers**
 
-Input:  
-`I am 25 years and 10 months old`  
-Output:  
-`2510`
+    Input:  `I am 25 years and 10 months old`  
+    Output:  `2510`
 
 
 ---
