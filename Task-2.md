@@ -203,9 +203,9 @@ Output: laxmi is name my
 
 Example:
 
-A = "apple banana mango"
-B = "banana fruits mango"
-Output: ['apple', 'fruits']
+    A = "apple banana mango"
+    B = "banana fruits mango"
+    Output: ['apple', 'fruits']
 
 
 
