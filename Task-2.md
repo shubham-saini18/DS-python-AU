@@ -66,14 +66,12 @@ Compute the **first 7 terms**.
 ---
 
 ## **Problem 7 – Sum of Pattern Series**
-Example: if n = 5 →  
-Series:  
-`2 + 22 + 222 + 2222 + 22222 = 24690`
+Write a program to calculate the sum of series up to n term. For example, if n =5 the series will become 2 + 22 + 222 + 2222 + 22222 = 24690. Take the user input and then calculate. And the output style should match which is given in the example.
 
-Output format:
-
-2+22+222+2222+22222
-Sum of above series is: 24690
+    Example: if n = 5 →  
+    Series: `2 + 22 + 222 + 2222 + 22222 = 24690`
+    Output format: 2+22+222+2222+22222
+                   Sum of above series is: 24690
 
 
 
@@ -105,13 +103,15 @@ Print **all permutations**.
 ---
 
 ## **Problem 9 – Decimal to Binary**
-Take a decimal number as input and print its binary equivalent.
+Write a program that will take a decimal number as input and prints out the **binary** equivalent of the number
+
 
 
 ---
 
 ## **Problem 10 – LCM & HCF**
-Take 2 numbers as input and print their **LCM** and **HCF**.
+Write a program that will take 2 numbers as input and prints the **LCM** and **HCF** of those 2 numbers
+
 
 
 ---
@@ -119,41 +119,38 @@ Take 2 numbers as input and print their **LCM** and **HCF**.
 ## **Problem 11 – Create Short Form**
 Given a sentence, create a short form using the **initial letters** in uppercase.
 
-Example:  
-Input: `Data science mentorship program`  
-Output: `DSMP`
+    Example:  
+     Input: `Data science mentorship program`  
+     Output: `DSMP`
 
 
 ---
 
 ## **Problem 12 – Insert String in Middle**
+Append second string in the middle of first string
 
-Input:
-campusx
-data
-
-
-Output:
-camdatapusx
+    Input: campus
+           xdata
+    Output: camdatapusx
 
 
 
 ---
 
 ## **Problem 13 – Arrange Characters**
-Given a mix of uppercase & lowercase letters, move all lowercase letters first.
+Given string contains a combination of the lower and upper case letters. Write a program to arrange the characters of a string so that all lowercase letters should come first.
 
-Input:  
-`PyNaTive`  
-Output:  
-`yaivePNT`
+
+    Input:  `PyNaTive`  
+    Output:  `yaivePNT`
 
 
 ---
 
 ## **Problem 14 – Sum & Average of Digits in a String**
+Take a alphanumeric string input and print the sum and average of the digits that appear in the string, ignoring all other characters.
 
-Input: `hel123O4every093`  
+    Input: `hel123O4every093`  
     Output:
 
     Sum: 22
@@ -173,34 +170,35 @@ Ignore all non-digit characters.
 
 ---
 
-## **Problem 16 – Check Symmetrical String**
+## **Problem 16 – Check whether the string is Symmetrical**
 
-A string is symmetrical if both halves are identical.
+**Statement:** Given a string. the task is to check if the string is symmetrical or not. A string is said to be symmetrical if both the halves of the string are the same.
 
-Example:  
-Input: `khokho`  
-Output: `The entered string is symmetrical`
+    Example:  
+     Input: `khokho`  
+     Output: `The entered string is symmetrical`
 
 
 ---
 
 ## **Problem 17 – Reverse Words in a String**
+**Statement:** We are given a string and we need to reverse words of a given string.
+    
+    Example 1:
+    Input: geeks quiz practice code
+    Output: code practice quiz geeks
 
-Example 1:
-Input: geeks quiz practice code
-Output: code practice quiz geeks
 
-
-Example 2:
-Input: my name is laxmi
-Output: laxmi is name my
+    Example 2:
+    Input: my name is laxmi
+    Output: laxmi is name my
 
 
 
 ---
 
-## **Problem 18 – Uncommon Words From Two Strings**
-
+## **Problem 18 – Find Uncommon Words From Two Strings**
+**Statement:** Given two sentences as strings A and B. The task is to return a list of all uncommon words. A word is uncommon if it appears exactly once in any one of the sentences, and does not appear in the other sentence. Note: A sentence is a string of space-separated words. Each word consists only of lowercase letters.
 Example:
 
     A = "apple banana mango"
@@ -211,13 +209,13 @@ Example:
 
 ---
 
-## **Problem 19 – Word Location in a Sentence**
-Find the location of a word **without using index/find**.
+## **Problem 19 – Word Location in a  String**
+Find the location of a word in a given sentence **without using index/find**.
 
-Example:
-Sentence: We can learn data science through campusx mentorship program.
-Word: campusx
-Output: Location of the word is 7.
+    Example:
+    Sentence: We can learn data science through campusx mentorship program.
+    Word: campusx
+    Output: Location of the word is 7.
 
 
 
@@ -225,8 +223,7 @@ Output: Location of the word is 7.
 ---
 
 ## **Problem 20 – Remove Duplicate Characters**
-User will input a string.  
-Remove all duplicate characters.
+Write a program that can remove all the duplicate characters from a string. User will provide the input
 
 
 ---
